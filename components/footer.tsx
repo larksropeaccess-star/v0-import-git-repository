@@ -32,7 +32,7 @@ export function Footer() {
                 alt="Larks Rope Access"
                 width={160}
                 height={60}
-                className="h-14 w-auto"
+                className="h-20 w-auto"
               />
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">

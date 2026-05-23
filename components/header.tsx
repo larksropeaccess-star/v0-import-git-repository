@@ -28,7 +28,7 @@ export function Header() {
               alt="Larks Rope Access"
               width={140}
               height={50}
-              className="h-10 lg:h-12 w-auto"
+              className="h-12 lg:h-16 w-auto"
             />
           </Link>
 

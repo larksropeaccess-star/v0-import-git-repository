@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Phone, Mail, MapPin } from "lucide-react"
 
 const quickLinks = [
@@ -25,13 +26,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="flex flex-col">
-                <span className="text-2xl font-bold tracking-tight text-foreground">
-                  L<span className="text-primary">A</span>RKS
-                </span>
-                <span className="text-[10px] tracking-[0.2em] text-primary -mt-1">ROPE ACCESS</span>
-              </div>
+            <Link href="/" className="flex items-center mb-4">
+              <Image
+                src="/logo.png"
+                alt="Larks Rope Access"
+                width={160}
+                height={60}
+                className="h-14 w-auto"
+              />
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Professional rope access window cleaning and building services in Bristol and the South West.

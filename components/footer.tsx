@@ -16,7 +16,6 @@ const services = [
   "High-Rise Window Cleaning",
   "Rope Access Services",
   "Cladding & Facade Cleaning",
-  "Pressure Washing",
 ]
 
 export function Footer() {

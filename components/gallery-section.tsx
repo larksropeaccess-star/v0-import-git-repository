@@ -1,19 +1,23 @@
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=600&q=80",
-    alt: "High-rise window cleaning",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E-NqDZe3WfzLLHOxpVxWUF9sJwtEuWxe.jpeg",
+    alt: "Rope access technician cleaning high-rise glass facade",
   },
   {
-    src: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&q=80",
-    alt: "Commercial building facade",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20260425-WA0007-QZB5CDQ81gaTnv3Kowki1z7Umjl2NX.jpg",
+    alt: "Rope access team working on glass atrium ceiling",
   },
   {
-    src: "https://images.unsplash.com/photo-1464938050520-ef2571f6c8db?w=600&q=80",
-    alt: "Modern glass building",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20260123-WA0003-55l5hDFOnfehJHU2NprPBu9hvbgfgE.jpg",
+    alt: "Window cleaning on tall commercial building",
   },
   {
-    src: "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=600&q=80",
-    alt: "Office building exterior",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20260123-WA0004-FZSlbROvc2GKxfZTuIKJATVS6hUY5e.jpg",
+    alt: "Rope access technician working on spiral glass dome",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20260425-WA0011-0GydRZlXEALdlapW5kWa2Y2tXVmegy.jpg",
+    alt: "Two technicians cleaning glass ceiling with pendant lights",
   },
 ]
 
@@ -30,7 +34,7 @@ export function GallerySection() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {galleryImages.map((image, index) => (
             <div
               key={index}

@@ -1,5 +1,4 @@
-import { ArrowRight, Building2, Building, Cable, Sparkles } from "lucide-react"
-import Link from "next/link"
+import { Building2, Building, Cable, Sparkles } from "lucide-react"
 
 const services = [
   {
@@ -49,16 +48,9 @@ export function ServicesSection() {
               <h3 className="text-sm font-bold text-zinc-900 mb-3 tracking-wide">
                 {service.title}
               </h3>
-              <p className="text-sm text-zinc-600 mb-4 leading-relaxed">
+              <p className="text-sm text-zinc-600 leading-relaxed">
                 {service.description}
               </p>
-              <Link
-                href="#contact"
-                className="inline-flex items-center gap-1 text-primary text-sm font-semibold hover:gap-2 transition-all"
-              >
-                LEARN MORE
-                <ArrowRight className="h-4 w-4" />
-              </Link>
             </div>
           ))}
         </div>

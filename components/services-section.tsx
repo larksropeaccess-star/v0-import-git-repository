@@ -1,4 +1,4 @@
-import { ArrowRight, Building2, Building, Cable, Sparkles, Droplets } from "lucide-react"
+import { ArrowRight, Building2, Building, Cable, Sparkles } from "lucide-react"
 import Link from "next/link"
 
 const services = [
@@ -22,11 +22,6 @@ const services = [
     title: "CLADDING & FACADE CLEANING",
     description: "Remove dirt, grime and pollution from building cladding and facades.",
   },
-  {
-    icon: Droplets,
-    title: "PRESSURE WASHING",
-    description: "High pressure cleaning for concrete, exteriors, walkways and more.",
-  },
 ]
 
 export function ServicesSection() {
@@ -42,7 +37,7 @@ export function ServicesSection() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <div
               key={index}

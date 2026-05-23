@@ -12,7 +12,7 @@ const services = [
     description: "Specialist cleaning for high-rise and hard-to-reach windows using rope access.",
   },
   {
-    icon: Cable,
+    icon: Lasso,
     title: "ROPE ACCESS SERVICES",
     description: "Versatile access solutions for difficult areas without the need for expensive plant.",
   },

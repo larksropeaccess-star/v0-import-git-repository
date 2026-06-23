@@ -3,7 +3,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       <section className="relative h-screen flex items-center">
         <img
-          src="/hero.jpg"
+          src="/src="/file_00000000082c720a947b52e9a25698ba.png"
           alt="Larks Rope Access"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />

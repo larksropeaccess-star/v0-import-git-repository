@@ -27,12 +27,21 @@ className="absolute inset-0 w-full h-full object-cover opacity-25"
             South West.
           </p>
 
-          <a
-            href="tel:07532835807"
-            className="bg-lime-500 text-black px-8 py-4 rounded font-bold"
-          >
-            CALL NOW
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4">
+  <a
+    href="#contact"
+    className="bg-lime-500 text-black px-8 py-4 rounded font-bold text-center"
+  >
+    GET A FREE QUOTE
+  </a>
+
+  <a
+    href="tel:07532835807"
+    className="border border-white px-8 py-4 rounded font-bold text-center"
+  >
+    CALL 07532 835807
+  </a>
+</div>
         </div>
       </section>
 

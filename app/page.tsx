@@ -9,10 +9,9 @@ export default function Home() {
           
 className="absolute inset-0 w-full h-full object-cover opacity-25"
         <div className="relative z-10 max-w-6xl mx-auto px-6">
-          <img
-          
-  src="/file_00000000082c720a947b52e9a25698ba.png"  
-            alt="Larks Rope Access"
+         <img
+  src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
+  alt="Larks Rope Access" 
             className="h-24 mb-8"
           />
 

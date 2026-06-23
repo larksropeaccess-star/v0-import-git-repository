@@ -17,9 +17,11 @@ export default function Home() {
             className="h-24 mb-8"
           />
 
-          <h1 className="text-6xl font-bold mb-6">
-            HIGH-RISE WINDOW CLEANING
-          </h1>
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-none">
+  HIGH-RISE WINDOW CLEANING.
+  <br />
+  NO LIMITS.
+</h1>
 
           <p className="text-xl mb-8">
             Professional rope access window cleaning across Bristol and the

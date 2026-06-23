@@ -11,7 +11,8 @@ export default function Home() {
 
         <div className="relative z-10 max-w-6xl mx-auto px-6">
           <img
-            src="/logo.png"
+          <img
+  src="/file_00000000082c720a947b52e9a25698ba.png"  
             alt="Larks Rope Access"
             className="h-24 mb-8"
           />

@@ -2,21 +2,24 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
       <section className="relative h-screen flex items-center">
-        <img
-          
-  src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
-          alt="Larks Rope Access"
-          
-className="absolute inset-0 w-full h-full object-cover opacity-25"
-        <div className="relative z-10 max-w-6xl mx-auto px-6">
-         <img
-  src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
-  alt="Larks Rope Access" 
-            className="h-24 mb-8"
-          />
+  <img
+    src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
+    alt="Larks Rope Access"
+    className="absolute inset-0 w-full h-full object-cover opacity-25"
+  />
 
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-none">
-  HIGH-RISE WINDOW CLEANING.
+  <div className="relative z-10 max-w-6xl mx-auto px-6">
+    <img
+      src="/file_00000000082c720a947b52e9a25698ba.png"
+      alt="Larks Rope Access"
+      className="h-24 mb-8"
+    />
+
+    <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-none">
+      HIGH-RISE WINDOW CLEANING.
+      <br />
+      NO LIMITS.
+    </h1>
   <br />
   NO LIMITS.
 </h1>

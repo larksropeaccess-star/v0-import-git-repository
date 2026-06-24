@@ -17,9 +17,6 @@ export default function Home() {
 
     <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-none">
       HIGH-RISE WINDOW CLEANING.
-      <br />
-      NO LIMITS.
-    </h1>
   <br />
   NO LIMITS.
 </h1>

@@ -30,7 +30,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4">
   <a
     href="#contact"
-    className="bg-lime-500 text-black px-8 py-4 rounded font-bold text-center"
+    className="bg-lime-500 text-black px-10 py-5 rounded font-bold text-center text-lg"
   >
     GET A FREE QUOTE
   </a>

@@ -12,7 +12,7 @@ export default function Home() {
     <img
       src="/file_00000000082c720a947b52e9a25698ba.png"
       alt="Larks Rope Access"
-      className="h-24 mb-8"
+      className="h-36 mb-8"
     />
 
     <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-none">
@@ -21,10 +21,11 @@ export default function Home() {
   NO LIMITS.
 </h1>
 
-          <p className="text-xl mb-8">
-            Professional rope access window cleaning across Bristol and the
-            South West.
-          </p>
+          <p className="text-xl mb-8 max-w-2xl">
+  Specialist rope access window cleaning, inspections and access
+  solutions for commercial buildings throughout Bristol and the
+  South West.
+</p>
 
           <div className="flex flex-col sm:flex-row gap-4">
   <a

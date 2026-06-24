@@ -15,7 +15,7 @@ export default function Home() {
       className="h-36 mb-8"
     />
 
-    <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-none">
+    <h1 className="text-7xl md:text-9xl font-bold mb-6 leading-none">
       HIGH-RISE WINDOW CLEANING.
   <br />
   NO LIMITS.

@@ -7,10 +7,6 @@ export default function Home() {
   alt="Larks Rope Access"
   className="absolute inset-0 w-full h-full object-cover opacity-25"
 />
-    src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
-    alt="Larks Rope Access"
-    className="absolute inset-0 w-full h-full object-cover opacity-25"
-  />
 
   <div className="relative z-10 max-w-6xl mx-auto px-6">
     <img

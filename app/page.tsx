@@ -39,7 +39,7 @@ return (
         className="h-36 mb-8"
       />
 
-      <h1 className="text-7xl md:text-[8rem] font-bold mb-6 leading-none">
+      <h1className="text-5xl md:text-7xl font-bold mb-6 leading-none" >
         HIGH-RISE WINDOW CLEANING.
         <br />
         NO LIMITS.

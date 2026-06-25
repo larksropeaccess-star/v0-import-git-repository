@@ -78,8 +78,8 @@ export default function Home() {
         </div>
       </section>
 {/* WHY CHOOSE LARKS */}
-<section className="py-20 px-6 text-center">
-  <h2 className="text-4xl font-bold mb-10">
+
+  <section id="why-larks" className="py-20 px-6 text-center"><h2 className="text-4xl font-bold mb-10">
     WHY CHOOSE LARKS?
   </h2>
 

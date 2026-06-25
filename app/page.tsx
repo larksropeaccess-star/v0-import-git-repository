@@ -36,7 +36,13 @@ return (
       <img
         src="/file_00000000082c720a947b52e9a25698ba.png"
         alt="Larks Rope Access"
-        className="h-36 mb-8"
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-none">
+  HIGH-RISE WINDOW CLEANING.
+  <br />
+  <span className="text-lime-400">
+    NO LIMITS.
+  </span>
+</h1>
       />
 
       <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-none">

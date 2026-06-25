@@ -30,14 +30,14 @@ export default function Home() {
         <img
           src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
           alt="Rope Access"
-          className="absolute inset-0 w-full h-full object-cover opacity-15"
+          className="absolute inset-0 w-full h-full object-cover object-center translate-y-24 opacity-40"
         />
 
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
 
         <div className="relative z-10 max-w-6xl mx-auto px-6">
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-none">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-none">
             HIGH-RISE WINDOW CLEANING.
             <br />
             <span className="text-lime-400">
@@ -45,10 +45,12 @@ export default function Home() {
             </span>
           </h1>
 
+          <div className="w-32 h-1 bg-lime-400 mb-8"></div>
+
           <p className="text-xl mb-8 max-w-2xl text-zinc-300">
             Specialist rope access window cleaning, inspections and
-            access solutions for commercial buildings throughout
-            Bristol and the South West.
+            access solutions for commercial buildings throughout Bristol
+            and the South West.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -108,27 +110,28 @@ export default function Home() {
       {/* SERVICES */}
       <section id="services" className="py-20 px-6 text-center">
 
-        <h2 className="text-4xl font-bold text-lime-400 mb-10">
-          ⚙ OUR SERVICES
+        <h2 className="text-4xl font-bold text-lime-400 mb-10 flex justify-center items-center gap-3">
+          <span className="text-5xl">⬢</span>
+          OUR SERVICES
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
             <h3 className="text-2xl font-bold mb-3">
               Commercial Window Cleaning
             </h3>
             <p>Professional high-level glass cleaning.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
             <h3 className="text-2xl font-bold mb-3">
               High Rise Window Cleaning
             </h3>
             <p>Safe rope access solutions for difficult buildings.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
             <h3 className="text-2xl font-bold mb-3">
               Specialist Rope Access
             </h3>
@@ -145,7 +148,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
 
           <h2 className="text-4xl font-bold text-lime-400 mb-8">
-            👷 ABOUT LARKS
+            ⬡ ABOUT LARKS
           </h2>
 
           <p className="text-lg text-zinc-300 leading-relaxed">
@@ -153,7 +156,7 @@ export default function Home() {
             building inspections and rope access solutions throughout Bristol
             and the South West. We deliver safe and efficient access without
             the need for expensive scaffolding, helping commercial clients
-            maintain their buildings safely and professionally.
+            maintain their buildings professionally.
           </p>
 
         </div>
@@ -163,47 +166,40 @@ export default function Home() {
       {/* WHY CHOOSE LARKS */}
       <section id="why-larks" className="py-20 px-6 text-center">
 
-        <h2 className="text-4xl md:text-5xl font-bold text-lime-400 mb-10">
-          ✔ WHY CHOOSE LARKS?
+        <h2 className="text-4xl md:text-5xl font-bold text-lime-400 mb-10 flex justify-center items-center gap-3">
+          <span className="text-5xl">◆</span>
+          WHY CHOOSE LARKS?
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
             <h3 className="text-2xl font-bold mb-3">IRATA Techniques</h3>
             <p>Safe and efficient rope access methods.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
             <h3 className="text-2xl font-bold mb-3">Fully Insured</h3>
             <p>Professional service with public liability insurance.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
-            <h3 className="text-2xl font-bold mb-3">
-              No Scaffolding Required
-            </h3>
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
+            <h3 className="text-2xl font-bold mb-3">No Scaffolding Required</h3>
             <p>Reduce disruption and costs.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
-            <h3 className="text-2xl font-bold mb-3">
-              Commercial Specialists
-            </h3>
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
+            <h3 className="text-2xl font-bold mb-3">Commercial Specialists</h3>
             <p>Experienced with offices and high-rise buildings.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
-            <h3 className="text-2xl font-bold mb-3">
-              Free Quotations
-            </h3>
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
+            <h3 className="text-2xl font-bold mb-3">Free Quotations</h3>
             <p>Clear pricing and honest advice.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
-            <h3 className="text-2xl font-bold mb-3">
-              South West Coverage
-            </h3>
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
+            <h3 className="text-2xl font-bold mb-3">South West Coverage</h3>
             <p>Bristol and surrounding areas covered.</p>
           </div>
 
@@ -214,11 +210,12 @@ export default function Home() {
       {/* PROJECTS */}
       <section id="projects" className="py-20 px-4">
 
-        <h2 className="text-4xl font-bold text-lime-400 text-center mb-10">
-          📸 RECENT PROJECTS
+        <h2 className="text-4xl font-bold text-lime-400 text-center mb-10 flex justify-center items-center gap-3">
+          <span className="text-5xl">▣</span>
+          RECENT PROJECTS
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-2 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-1 max-w-7xl mx-auto">
 
           <img
             src="/IMG-20260123-WA0003.jpg"
@@ -246,20 +243,20 @@ export default function Home() {
       <section className="py-20 px-6 text-center">
 
         <h2 className="text-4xl font-bold text-lime-400 mb-10">
-          ⭐ TRUSTED BY CLIENTS
+          ★ TRUSTED BY CLIENTS
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
             <p>Excellent service and very professional.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
             <p>Reliable, safe and completed with minimal disruption.</p>
           </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl">
+          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
             <p>Would highly recommend for commercial window cleaning.</p>
           </div>
 
@@ -270,8 +267,9 @@ export default function Home() {
       {/* CONTACT */}
       <section id="contact" className="py-20 px-6 text-center bg-zinc-900">
 
-        <h2 className="text-4xl font-bold text-lime-400 mb-10">
-          ☎ GET YOUR FREE QUOTE
+        <h2 className="text-4xl font-bold text-lime-400 mb-10 flex justify-center items-center gap-3">
+          <span className="text-5xl">◉</span>
+          GET YOUR FREE QUOTE
         </h2>
 
         <div className="max-w-4xl mx-auto">

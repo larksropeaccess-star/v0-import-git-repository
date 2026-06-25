@@ -108,7 +108,7 @@ return (
 
   {/* WHY CHOOSE LARKS */}
   <section id="why-larks" className="py-20 px-6 text-center">
-    <h2 className="text-4xl font-bold mb-10">
+    <h2 className="text-4xl font-bold text-lime-400 mb-10">
       WHY CHOOSE LARKS?
     </h2>
 

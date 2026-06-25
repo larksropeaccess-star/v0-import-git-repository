@@ -39,11 +39,13 @@ return (
         className="h-36 mb-8"
       />
 
-      <h1className="text-5xl md:text-7xl font-bold mb-6 leading-none" >
-        HIGH-RISE WINDOW CLEANING.
-        <br />
-        NO LIMITS.
-      </h1>
+      <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-none">
+  HIGH-RISE WINDOW CLEANING.
+  <br />
+  <span className="text-lime-400">
+    NO LIMITS.
+  </span>
+</h1>
 
       <p className="text-xl mb-8 max-w-2xl">
         Specialist rope access window cleaning, inspections and access

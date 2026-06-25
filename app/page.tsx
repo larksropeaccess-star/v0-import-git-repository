@@ -173,7 +173,37 @@ export default function Home() {
           />
         </div>
       </section>
+{/* TESTIMONIALS */}
+<section className="py-20 px-6 text-center">
+  <h2 className="text-4xl font-bold mb-10">
+    TRUSTED BY CLIENTS
+  </h2>
 
+  <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+    <div className="bg-zinc-900 p-8 rounded-xl">
+      <p className="mb-4">
+        "Excellent service, professional from start to finish."
+      </p>
+      <p className="font-bold">Commercial Client</p>
+    </div>
+
+    <div className="bg-zinc-900 p-8 rounded-xl">
+      <p className="mb-4">
+        "Reliable, safe and completed the work with minimal disruption."
+      </p>
+      <p className="font-bold">Property Manager</p>
+    </div>
+
+    <div className="bg-zinc-900 p-8 rounded-xl">
+      <p className="mb-4">
+        "Would highly recommend for high-rise window cleaning."
+      </p>
+      <p className="font-bold">Facilities Manager</p>
+    </div>
+
+  </div>
+</section>
       {/* CONTACT */}
       <section id="contact" className="py-20 px-6 text-center">
         <h2 className="text-4xl font-bold mb-10">

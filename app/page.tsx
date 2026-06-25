@@ -68,12 +68,12 @@ export default function Home() {
             <p>Professional high-level glass cleaning.</p>
           </div>
 
-          <div className="border border-lime-500 p-6">
+          <div className
             <h3 className="text-2xl font-bold mb-3">High Rise Window Cleaning</h3>
             <p>Safe rope access solutions for difficult buildings.</p>
           </div>
 
-          <div className="border border-lime-500 p-6">
+          <div className="bg-zinc-900 p-8 rounded-xl" 
             <h3 className="text-2xl font-bold mb-3">Specialist Rope Access</h3>
             <p>Inspection, maintenance and specialist access work.</p>
           </div>
@@ -87,32 +87,32 @@ export default function Home() {
 
   <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-    <div className="border border-lime-500 p-6">
+    <div className="bg-zinc-900 p-8 rounded-xl"
       <h3 className="text-2xl font-bold mb-3">IRATA Techniques</h3>
       <p>Safe and efficient rope access methods for difficult-to-reach areas.</p>
     </div>
 
-    <div className="border border-lime-500 p-6">
+    <divclassName="bg-zinc-900 p-8 rounded-xl"  
       <h3 className="text-2xl font-bold mb-3">Fully Insured</h3>
       <p>Professional service with full public liability insurance.</p>
     </div>
 
-    <div className="border border-lime-500 p-6">
+    <div className="bg-zinc-900 p-8 rounded-xl"
       <h3 className="text-2xl font-bold mb-3">No Scaffolding Required</h3>
       <p>Fast access solutions that reduce disruption and costs.</p>
     </div>
 
-    <div className="border border-lime-500 p-6">
+    <div className="bg-zinc-900 p-8 rounded-xl"
       <h3 className="text-2xl font-bold mb-3">Commercial Specialists</h3>
       <p>Experienced working on offices, apartments and high-rise buildings.</p>
     </div>
 
-    <div className="border border-lime-500 p-6">
+    <div className="bg-zinc-900 p-8 rounded-xl"
       <h3 className="text-2xl font-bold mb-3">Free Quotations</h3>
       <p>Clear pricing and honest advice with no obligation.</p>
     </div>
 
-    <div className="border border-lime-500 p-6">
+    <div className="bg-zinc-900 p-8 rounded-xl"
       <h3 className="text-2xl font-bold mb-3">South West Coverage</h3>
       <p>Serving Bristol and surrounding areas with reliable rope access services.</p>
     </div>

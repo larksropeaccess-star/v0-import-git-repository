@@ -119,11 +119,19 @@ export default function Home() {
 
       {/* CONTACT */}
       <section id="contact" className="py-20 px-6 text-center">
-        <h2 className="text-4xl font-bold mb-10">CONTACT US</h2>
+        <h2 className="text-4xl font-bold mb-10">GET YOUR FREE QUOTE</h2>
 
         <div className="max-w-4xl mx-auto text-center">
-          <p className="mb-4">07532 835807</p>
-          <p className="mb-4">larksropeaccess@gmail.com</p>
+         <p className="mb-4 text-2xl font-bold">07532 835807</p>
+<p className="mb-4">larksropeaccess@gmail.com</p>
+<p className="mb-8">Bristol & South West UK</p>
+
+<a
+  href="tel:07532835807"
+  className="bg-lime-500 text-black px-8 py-4 rounded font-bold inline-block"
+>
+  CALL NOW
+</a> 
           <p>Bristol & South West UK</p>
         </div>
       </section>

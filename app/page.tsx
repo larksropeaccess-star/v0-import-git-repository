@@ -41,7 +41,31 @@ return (
         alt="Larks Rope Access"
         className="h-24 md:h-40 mb-8 drop-shadow-[0_0_20px_rgba(163,230,53,0.4)]"
       />
+<section className="py-8 border-y border-zinc-800">
+  <div className="max-w-6xl mx-auto px-6">
+    <div className="grid md:grid-cols-4 gap-6 text-center">
+      <div>
+        <p className="text-lime-400 font-bold text-3xl">IRATA</p>
+        <p>Rope Access Techniques</p>
+      </div>
 
+      <div>
+        <p className="text-lime-400 font-bold text-3xl">Fully</p>
+        <p>Insured</p>
+      </div>
+
+      <div>
+        <p className="text-lime-400 font-bold text-3xl">Bristol</p>
+        <p>& South West Coverage</p>
+      </div>
+
+      <div>
+        <p className="text-lime-400 font-bold text-3xl">Free</p>
+        <p>Quotations</p>
+      </div>
+    </div>
+  </div>
+</section>
       <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-none">
         HIGH-RISE WINDOW CLEANING.
         <br />

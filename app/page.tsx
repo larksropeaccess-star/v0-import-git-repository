@@ -78,7 +78,7 @@ return (
 
   {/* SERVICES */}
   <section id="services" className="py-20 px-6 text-center">
-    <h2 className="text-4xl font-bold mb-10">OUR SERVICES</h2>
+    <h2 className="text-4xl font-bold text-lime-400 mb-10"> SERVICES</h2>
 
     <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 

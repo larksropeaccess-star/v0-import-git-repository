@@ -5,9 +5,13 @@ return (
   {/* NAVIGATION */}
   <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm">
     <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#" className="font-bold text-xl">
-        LARKS
-      </a>
+      <a href="#">
+  <img
+    src="/file_00000000082c720a947b52e9a25698ba.png"
+    alt="Larks Rope Access"
+    className="h-12 md:h-14"
+  />
+</a>
 
       <div className="flex gap-4 text-sm">
         <a href="#services">Services</a>

@@ -5,7 +5,7 @@ export default function Home() {
   <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
     <span className="font-bold text-xl">LARKS</span>
 
-    <div className="hidden md:flex gap-6">
+    <div className="flex gap-4 text-sm">
       <a href="#services">Services</a>
       <a href="#why-larks">Why Larks</a>
       <a href="#projects">Projects</a>

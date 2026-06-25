@@ -143,7 +143,7 @@ export default function Home() {
 >
   CALL NOW
 </a> 
-          <p>Bristol & South West UK</p>
+          
         </div>
       </section>
 

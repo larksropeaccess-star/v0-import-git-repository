@@ -5,13 +5,14 @@ return (
   {/* NAVIGATION */}
   <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm">
     <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
       <a href="#">
-  <img
-    src="/file_00000000082c720a947b52e9a25698ba.png"
-    alt="Larks Rope Access"
-    className="h-12 md:h-14"
-  />
-</a>
+        <img
+          src="/file_00000000082c720a947b52e9a25698ba.png"
+          alt="Larks Rope Access"
+          className="h-12 md:h-14"
+        />
+      </a>
 
       <div className="flex gap-4 text-sm">
         <a href="#services">Services</a>
@@ -24,6 +25,7 @@ return (
 
   {/* HERO */}
   <section className="relative h-screen flex items-center pt-20">
+
     <img
       src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
       alt="Larks Rope Access"
@@ -33,25 +35,20 @@ return (
     <div className="absolute inset-0 bg-black/60"></div>
 
     <div className="relative z-10 max-w-6xl mx-auto px-6">
+
       <img
         src="/file_00000000082c720a947b52e9a25698ba.png"
         alt="Larks Rope Access"
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-none">
-  HIGH-RISE WINDOW CLEANING.
-  <br />
-  <span className="text-lime-400">
-    NO LIMITS.
-  </span>
-</h1>
+        className="h-24 md:h-40 mb-8 drop-shadow-[0_0_20px_rgba(163,230,53,0.4)]"
       />
 
       <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-none">
-  HIGH-RISE WINDOW CLEANING.
-  <br />
-  <span className="text-lime-400">
-    NO LIMITS.
-  </span>
-</h1>
+        HIGH-RISE WINDOW CLEANING.
+        <br />
+        <span className="text-lime-400">
+          NO LIMITS.
+        </span>
+      </h1>
 
       <p className="text-xl mb-8 max-w-2xl">
         Specialist rope access window cleaning, inspections and access
@@ -59,6 +56,7 @@ return (
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4">
+
         <a
           href="#contact"
           className="bg-lime-500 text-black px-10 py-5 rounded font-bold text-center text-lg"
@@ -72,16 +70,17 @@ return (
         >
           CALL 07532 835807
         </a>
+
       </div>
     </div>
   </section>
 
   {/* SERVICES */}
-  <h2 className="text-4xl font-bold text-lime-400 mb-10">
-  ⚙ OUR SERVICES
-</h2>
   <section id="services" className="py-20 px-6 text-center">
-    <h2 className="text-4xl font-bold text-lime-400 mb-10"> SERVICES</h2>
+
+    <h2 className="text-4xl font-bold text-lime-400 mb-10">
+      ⚙ OUR SERVICES
+    </h2>
 
     <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
@@ -111,8 +110,9 @@ return (
 
   {/* WHY CHOOSE LARKS */}
   <section id="why-larks" className="py-20 px-6 text-center">
+
     <h2 className="text-4xl font-bold text-lime-400 mb-10">
-      WHY CHOOSE LARKS?
+      ✓ WHY CHOOSE LARKS?
     </h2>
 
     <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -152,7 +152,8 @@ return (
         <h3 className="text-2xl font-bold mb-3">
           South West Coverage
         </h3>
-        <p>Bristol and surrounding areas covered.</p>
+        <p>Bristol and surrounding areas covered.
+        </p>
       </div>
 
     </div>
@@ -160,58 +161,47 @@ return (
 
   {/* PROJECTS */}
   <section id="projects" className="py-20 px-6">
-    <h2 className="text-6xl font-bold text-center mb-4">
-      RECENT PROJECTS
+
+    <h2 className="text-5xl font-bold text-lime-400 text-center mb-4">
+      📷 RECENT PROJECTS
     </h2>
 
     <p className="text-center text-zinc-400 mb-12 max-w-2xl mx-auto">
       Professional rope access window cleaning and specialist access solutions across Bristol and the South West.
     </p>
 
-    <div className="grid md:grid-cols-3 gap-2 w-full">
-      <img src="/IMG-20260123-WA0003.jpg" className="rounded-xl h-80 w-full object-cover" alt="" />
-      <img src="/IMG-20260123-WA0004.jpg" className="rounded-xl h-80 w-full object-cover" alt="" />
-      <img src="/IMG-20260425-WA0011.jpg" className="rounded-xl h-80 w-full object-cover" alt="" />
-    </div>
-  </section>
+    <div className="grid md:grid-cols-3 gap-1">
 
-  {/* TESTIMONIALS */}
-  <section className="py-20 px-6 text-center">
-    <h2 className="text-4xl font-bold mb-10">
-      TRUSTED BY CLIENTS
-    </h2>
+      <img
+        src="/IMG-20260123-WA0003.jpg"
+        alt=""
+        className="rounded-xl h-96 w-full object-cover"
+      />
 
-    <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-      <div className="bg-zinc-900 p-8 rounded-xl">
-        <p className="mb-4">
-          Excellent service, professional from start to finish.
-        </p>
-        <p className="font-bold">Commercial Client</p>
-      </div>
+      <img
+        src="/IMG-20260123-WA0004.jpg"
+        alt=""
+        className="rounded-xl h-96 w-full object-cover"
+      />
 
-      <div className="bg-zinc-900 p-8 rounded-xl">
-        <p className="mb-4">
-          Reliable, safe and completed the work with minimal disruption.
-        </p>
-        <p className="font-bold">Property Manager</p>
-      </div>
+      <img
+        src="/IMG-20260425-WA0011.jpg"
+        alt=""
+        className="rounded-xl h-96 w-full object-cover"
+      />
 
-      <div className="bg-zinc-900 p-8 rounded-xl">
-        <p className="mb-4">
-          Would highly recommend for high-rise window cleaning.
-        </p>
-        <p className="font-bold">Facilities Manager</p>
-      </div>
     </div>
   </section>
 
   {/* CONTACT */}
   <section id="contact" className="py-20 px-6 text-center">
-    <h2 className="text-4xl font-bold mb-10">
-      GET YOUR FREE QUOTE
+
+    <h2 className="text-4xl font-bold text-lime-400 mb-10">
+      ✆ GET YOUR FREE QUOTE
     </h2>
 
     <div className="max-w-4xl mx-auto">
+
       <p className="mb-4 text-2xl font-bold">
         07532 835807
       </p>
@@ -230,6 +220,7 @@ return (
       >
         CALL NOW
       </a>
+
     </div>
   </section>
 

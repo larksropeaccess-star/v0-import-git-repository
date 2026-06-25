@@ -3,7 +3,9 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
 <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm">
   <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-    <span className="font-bold text-xl">LARKS</span>
+   <a href="#" className="font-bold text-xl">
+  LARKS
+</a> 
 
     <div className="flex gap-4 text-sm">
       <a href="#services">Services</a>

@@ -14,7 +14,7 @@ export default function Home() {
   </div>
 </nav>
       {/* HERO */}
-      <section className="relative h-screen flex items-center">
+     <section className="relative h-screen flex items-center pt-20"> 
         <img
           src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
           alt="Larks Rope Access"

@@ -77,6 +77,9 @@ return (
   </section>
 
   {/* SERVICES */}
+  <h2 className="text-4xl font-bold text-lime-400 mb-10">
+  ⚙ OUR SERVICES
+</h2>
   <section id="services" className="py-20 px-6 text-center">
     <h2 className="text-4xl font-bold text-lime-400 mb-10"> SERVICES</h2>
 

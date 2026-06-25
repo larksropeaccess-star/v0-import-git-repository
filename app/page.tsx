@@ -1,7 +1,18 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
+<nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm">
+  <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <span className="font-bold text-xl">LARKS</span>
 
+    <div className="hidden md:flex gap-6">
+      <a href="#services">Services</a>
+      <a href="#why-larks">Why Larks</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
       {/* HERO */}
       <section className="relative h-screen flex items-center">
         <img

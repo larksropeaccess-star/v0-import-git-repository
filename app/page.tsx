@@ -118,7 +118,7 @@ export default function Home() {
   </div>
 </section>
       {/* GALLERY */}
-      <section className="py-20 px-6 bg-zinc-900">
+      <section id="projects" className="py-20 px-6 bg-zinc-900">
         <h2 className="text-4xl font-bold text-center mb-10">RECENT PROJECTS</h2>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">

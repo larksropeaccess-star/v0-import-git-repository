@@ -347,12 +347,6 @@ export default function Home() {
 
       </section>
 
-      {/* ================= CONTACT ================= */}
-
-      <section id="contact" className="py-24 px-6 text-center">
-
-        <h2 className="text-5xl font-black text-lime-400 mb-10 drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
-          ✉{/* ================= CONTACT ================= */}
 
 {/* ================= CONTACT ================= */}
 

@@ -2,69 +2,89 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
 
-      {/* NAVIGATION */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-zinc-800">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      {/* ================= NAVIGATION ================= */}
+
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-md border-b border-zinc-800">
+        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
           <a href="#">
             <img
               src="/file_00000000082c720a947b52e9a25698ba.png"
               alt="Larks Rope Access"
-              className="h-12 md:h-14"
+              className="h-12 md:h-16 w-auto"
             />
           </a>
 
-          <div className="flex gap-4 md:gap-6 text-sm">
-            <a href="#services">Services</a>
-            <a href="#why-larks">Why Larks</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+          <div className="hidden md:flex gap-8 text-sm uppercase tracking-widest">
+            <a href="#services" className="hover:text-lime-400 transition">
+              Services
+            </a>
+
+            <a href="#why-larks" className="hover:text-lime-400 transition">
+              Why Larks
+            </a>
+
+            <a href="#projects" className="hover:text-lime-400 transition">
+              Projects
+            </a>
+
+            <a href="#contact" className="hover:text-lime-400 transition">
+              Contact
+            </a>
           </div>
 
         </div>
       </nav>
 
-      {/* HERO */}
-      <section className="relative h-screen flex items-center pt-20">
+      {/* ================= HERO ================= */}
+
+      <section className="relative min-h-screen flex items-center overflow-hidden pt-24">
 
         <img
           src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
-          alt="Rope Access"
-          className="absolute inset-0 w-full h-full object-cover object-center translate-y-24 opacity-40"
+          alt="Larks Rope Access"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-35 translate-y-10"
         />
 
         <div className="absolute inset-0 bg-black/40"></div>
 
-        <div className="relative z-10 max-w-6xl mx-auto px-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-6">
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-none">
+          <img
+            src="/file_00000000082c720a947b52e9a25698ba.png"
+            alt="Larks Rope Access"
+            className="h-36 md:h-48 mb-8"
+          />
+
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-none mb-6">
+
             HIGH-RISE WINDOW CLEANING.
+
             <br />
-            <span className="text-lime-400">
+
+            <span className="text-lime-400 drop-shadow-[0_0_18px_rgba(163,230,53,0.9)]">
               NO LIMITS.
             </span>
+
           </h1>
 
-          <div className="w-32 h-1 bg-lime-400 mb-8"></div>
-
-          <p className="text-xl mb-8 max-w-2xl text-zinc-300">
-            Specialist rope access window cleaning, inspections and
-            access solutions for commercial buildings throughout Bristol
-            and the South West.
+          <p className="text-xl md:text-2xl text-zinc-300 max-w-2xl mb-10 leading-relaxed">
+            Specialist rope access window cleaning, inspections and maintenance
+            for commercial buildings throughout Bristol and the South West.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-5">
 
             <a
               href="#contact"
-              className="bg-lime-500 text-black px-10 py-5 rounded font-bold text-center text-lg"
+              className="bg-lime-400 hover:bg-lime-300 transition text-black px-10 py-5 rounded-xl font-bold text-lg"
             >
               GET A FREE QUOTE
             </a>
 
             <a
               href="tel:07532835807"
-              className="border border-white px-8 py-5 rounded font-bold text-center"
+              className="border border-white hover:border-lime-400 hover:text-lime-400 transition px-10 py-5 rounded-xl font-bold text-lg"
             >
               CALL 07532 835807
             </a>
@@ -72,166 +92,213 @@ export default function Home() {
           </div>
 
         </div>
+
       </section>
 
-      {/* TRUST BAR */}
-      <section className="py-8 border-y border-zinc-800">
+      {/* ================= TRUST BAR ================= */}
 
-        <div className="max-w-6xl mx-auto px-6">
+      <section className="bg-black border-y border-zinc-800 py-10">
 
-          <div className="grid md:grid-cols-4 gap-6 text-center">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center px-6">
 
-            <div>
-              <p className="text-lime-400 text-3xl font-bold">IRATA</p>
-              <p>Rope Access Methods</p>
-            </div>
+          <div>
 
-            <div>
-              <p className="text-lime-400 text-3xl font-bold">Fully</p>
-              <p>Insured</p>
-            </div>
+            <div className="text-5xl mb-3 text-lime-400">🪢</div>
 
-            <div>
-              <p className="text-lime-400 text-3xl font-bold">Bristol</p>
-              <p>& South West Coverage</p>
-            </div>
+            <h3 className="text-lime-400 text-3xl font-bold drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+              IRATA
+            </h3>
 
-            <div>
-              <p className="text-lime-400 text-3xl font-bold">Free</p>
-              <p>Quotations</p>
-            </div>
+            <p className="text-zinc-400 mt-2">
+              Rope Access Methods
+            </p>
+
+          </div>
+
+          <div>
+
+            <div className="text-5xl mb-3 text-lime-400">🛡</div>
+
+            <h3 className="text-lime-400 text-3xl font-bold drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+              Fully
+            </h3>
+
+            <p className="text-zinc-400 mt-2">
+              Insured
+            </p>
+
+          </div>
+
+          <div>
+
+            <div className="text-5xl mb-3 text-lime-400">📍</div>
+
+            <h3 className="text-lime-400 text-3xl font-bold drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+              Bristol
+            </h3>
+
+            <p className="text-zinc-400 mt-2">
+              & South West
+            </p>
+
+          </div>
+
+          <div>
+
+            <div className="text-5xl mb-3 text-lime-400">✔</div>
+
+            <h3 className="text-lime-400 text-3xl font-bold drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+              Free
+            </h3>
+
+            <p className="text-zinc-400 mt-2">
+              Quotations
+            </p>
 
           </div>
 
         </div>
 
       </section>
+{/* ================= SERVICES ================= */}
 
-      {/* SERVICES */}
-      <section id="services" className="py-20 px-6 text-center">
+      <section id="services" className="py-24 px-6">
 
-        <h2 className="text-4xl font-bold text-lime-400 mb-10 flex justify-center items-center gap-3">
-          <span className="text-5xl">⬢</span>
-          OUR SERVICES
-        </h2>
+        <div className="max-w-7xl mx-auto">
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">
-              Commercial Window Cleaning
-            </h3>
-            <p>Professional high-level glass cleaning.</p>
-          </div>
-
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">
-              High Rise Window Cleaning
-            </h3>
-            <p>Safe rope access solutions for difficult buildings.</p>
-          </div>
-
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">
-              Specialist Rope Access
-            </h3>
-            <p>Inspection, maintenance and specialist access work.</p>
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* ABOUT */}
-      <section className="py-20 px-6 bg-zinc-900">
-
-        <div className="max-w-4xl mx-auto text-center">
-
-          <h2 className="text-4xl font-bold text-lime-400 mb-8">
-            ⬡ ABOUT LARKS
+          <h2 className="text-5xl font-black text-lime-400 text-center mb-16 drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+            ⚙ OUR SERVICES
           </h2>
 
-          <p className="text-lg text-zinc-300 leading-relaxed">
-            Larks Rope Access provides specialist high-rise window cleaning,
-            building inspections and rope access solutions throughout Bristol
-            and the South West. We deliver safe and efficient access without
-            the need for expensive scaffolding, helping commercial clients
-            maintain their buildings professionally.
-          </p>
+          <div className="grid md:grid-cols-3 gap-8">
 
-        </div>
+            <div className="bg-zinc-900 rounded-2xl p-8 hover:-translate-y-2 transition duration-300 border border-zinc-800 hover:border-lime-400">
 
-      </section>
+              <div className="text-5xl mb-5">🏢</div>
 
-      {/* WHY CHOOSE LARKS */}
-      <section id="why-larks" className="py-20 px-6 text-center">
+              <h3 className="text-2xl font-bold mb-4">
+                Commercial Window Cleaning
+              </h3>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-lime-400 mb-10 flex justify-center items-center gap-3">
-          <span className="text-5xl">◆</span>
-          WHY CHOOSE LARKS?
-        </h2>
+              <p className="text-zinc-400 leading-relaxed">
+                Professional high-level glass cleaning for offices, retail units
+                and commercial buildings.
+              </p>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">IRATA Techniques</h3>
-            <p>Safe and efficient rope access methods.</p>
-          </div>
+            <div className="bg-zinc-900 rounded-2xl p-8 hover:-translate-y-2 transition duration-300 border border-zinc-800 hover:border-lime-400">
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">Fully Insured</h3>
-            <p>Professional service with public liability insurance.</p>
-          </div>
+              <div className="text-5xl mb-5">🪢</div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">No Scaffolding Required</h3>
-            <p>Reduce disruption and costs.</p>
-          </div>
+              <h3 className="text-2xl font-bold mb-4">
+                High Rise Window Cleaning
+              </h3>
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">Commercial Specialists</h3>
-            <p>Experienced with offices and high-rise buildings.</p>
-          </div>
+              <p className="text-zinc-400 leading-relaxed">
+                Safe rope access solutions for buildings where traditional
+                access isn't practical.
+              </p>
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">Free Quotations</h3>
-            <p>Clear pricing and honest advice.</p>
-          </div>
+            </div>
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <h3 className="text-2xl font-bold mb-3">South West Coverage</h3>
-            <p>Bristol and surrounding areas covered.</p>
+            <div className="bg-zinc-900 rounded-2xl p-8 hover:-translate-y-2 transition duration-300 border border-zinc-800 hover:border-lime-400">
+
+              <div className="text-5xl mb-5">🔧</div>
+
+              <h3 className="text-2xl font-bold mb-4">
+                Specialist Rope Access
+              </h3>
+
+              <p className="text-zinc-400 leading-relaxed">
+                Inspections, maintenance and specialist access work completed
+                safely and efficiently.
+              </p>
+
+            </div>
+
           </div>
 
         </div>
 
       </section>
 
-      {/* PROJECTS */}
-      <section id="projects" className="py-20 px-4">
+      {/* ================= WHY LARKS ================= */}
 
-        <h2 className="text-4xl font-bold text-lime-400 text-center mb-10 flex justify-center items-center gap-3">
-          <span className="text-5xl">▣</span>
-          RECENT PROJECTS
+      <section id="why-larks" className="py-24 bg-zinc-950 px-6">
+
+        <div className="max-w-7xl mx-auto">
+
+          <h2 className="text-5xl font-black text-lime-400 text-center mb-16 drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+            ★ WHY CHOOSE LARKS
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            {[
+              ["🪢","IRATA Techniques","Safe professional rope access methods."],
+              ["🛡","Fully Insured","Complete public liability insurance."],
+              ["🚫","No Scaffolding","Less disruption and lower costs."],
+              ["🏢","Commercial Specialists","Experienced on offices and apartments."],
+              ["💷","Free Quotations","Fast honest quotations."],
+              ["📍","South West Coverage","Based in Bristol covering the South West."]
+            ].map(([icon,title,text]) => (
+
+              <div
+                key={title}
+                className="bg-black rounded-2xl p-8 border border-zinc-800 hover:border-lime-400 hover:-translate-y-2 transition"
+              >
+
+                <div className="text-5xl mb-5">{icon}</div>
+
+                <h3 className="text-2xl font-bold mb-3">
+                  {title}
+                </h3>
+
+                <p className="text-zinc-400">
+                  {text}
+                </p>
+
+              </div>
+
+            ))}
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* ================= PROJECTS ================= */}
+
+      <section id="projects" className="py-24">
+
+        <h2 className="text-center text-5xl font-black text-lime-400 mb-6 drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+          📷 RECENT PROJECTS
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-1 max-w-7xl mx-auto">
+        <p className="text-center text-zinc-400 max-w-2xl mx-auto mb-12">
+          Recent rope access window cleaning projects completed across Bristol
+          and the South West.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-2 px-2">
 
           <img
             src="/IMG-20260123-WA0003.jpg"
-            className="rounded-xl h-80 w-full object-cover"
+            className="h-[420px] w-full object-cover rounded-xl hover:scale-[1.02] transition"
             alt=""
           />
 
           <img
             src="/IMG-20260123-WA0004.jpg"
-            className="rounded-xl h-80 w-full object-cover"
+            className="h-[420px] w-full object-cover rounded-xl hover:scale-[1.02] transition"
             alt=""
           />
 
           <img
             src="/IMG-20260425-WA0011.jpg"
-            className="rounded-xl h-80 w-full object-cover"
+            className="h-[420px] w-full object-cover rounded-xl hover:scale-[1.02] transition"
             alt=""
           />
 
@@ -239,64 +306,96 @@ export default function Home() {
 
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="py-20 px-6 text-center">
+      {/* ================= TESTIMONIALS ================= */}
 
-        <h2 className="text-4xl font-bold text-lime-400 mb-10">
-          ★ TRUSTED BY CLIENTS
-        </h2>
+      <section className="py-24 px-6 bg-zinc-950">
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <p>Excellent service and very professional.</p>
-          </div>
+          <h2 className="text-center text-5xl font-black text-lime-400 mb-16 drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+            ★ TRUSTED BY CLIENTS
+          </h2>
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <p>Reliable, safe and completed with minimal disruption.</p>
-          </div>
+          <div className="grid md:grid-cols-3 gap-8">
 
-          <div className="bg-zinc-900 p-8 rounded-xl border border-lime-500/30">
-            <p>Would highly recommend for commercial window cleaning.</p>
+            <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+              <p className="italic mb-6 text-zinc-300">
+                "Excellent service from start to finish. Professional, reliable
+                and highly recommended."
+              </p>
+              <strong>Commercial Client</strong>
+            </div>
+
+            <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+              <p className="italic mb-6 text-zinc-300">
+                "Completed safely with minimal disruption to our business."
+              </p>
+              <strong>Property Manager</strong>
+            </div>
+
+            <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+              <p className="italic mb-6 text-zinc-300">
+                "Outstanding rope access specialists. We'll definitely use them
+                again."
+              </p>
+              <strong>Facilities Manager</strong>
+            </div>
+
           </div>
 
         </div>
 
       </section>
 
-      {/* CONTACT */}
-      <section id="contact" className="py-20 px-6 text-center bg-zinc-900">
+      {/* ================= CONTACT ================= */}
 
-        <h2 className="text-4xl font-bold text-lime-400 mb-10 flex justify-center items-center gap-3">
-          <span className="text-5xl">◉</span>
-          GET YOUR FREE QUOTE
+      <section id="contact" className="py-24 px-6 text-center">
+
+        <h2 className="text-5xl font-black text-lime-400 mb-10 drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
+          ✉ GET YOUR FREE QUOTE
         </h2>
 
-        <div className="max-w-4xl mx-auto">
+        <p className="text-3xl font-bold mb-3">
+          07532 835807
+        </p>
 
-          <p className="mb-4 text-2xl font-bold">
-            07532 835807
-          </p>
+        <p className="mb-3 text-zinc-300">
+          larksropeaccess@gmail.com
+        </p>
 
-          <p className="mb-4">
-            larksropeaccess@gmail.com
-          </p>
+        <p className="mb-10 text-zinc-500">
+          Bristol & South West
+        </p>
 
-          <p className="mb-8">
-            Bristol & South West UK
-          </p>
-
-          <a
-            href="tel:07532835807"
-            className="bg-lime-500 text-black px-8 py-4 rounded font-bold inline-block"
-          >
-            CALL NOW
-          </a>
-
-        </div>
+        <a
+          href="tel:07532835807"
+          className="inline-block bg-lime-400 hover:bg-lime-300 transition text-black font-bold px-10 py-5 rounded-xl text-lg"
+        >
+          CALL NOW
+        </a>
 
       </section>
+
+      {/* ================= FOOTER ================= */}
+
+      <footer className="border-t border-zinc-800 py-8 text-center text-zinc-500">
+
+        <img
+          src="/file_00000000082c720a947b52e9a25698ba.png"
+          alt="Larks Rope Access"
+          className="h-12 mx-auto mb-4"
+        />
+
+        <p>
+          © {new Date().getFullYear()} Larks Rope Access Ltd.
+        </p>
+
+        <p className="mt-2">
+          High-Rise Window Cleaning • Rope Access • Bristol & South West
+        </p>
+
+      </footer>
 
     </main>
   );
-}
+              }

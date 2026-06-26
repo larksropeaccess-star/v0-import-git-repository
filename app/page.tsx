@@ -352,29 +352,78 @@ export default function Home() {
       <section id="contact" className="py-24 px-6 text-center">
 
         <h2 className="text-5xl font-black text-lime-400 mb-10 drop-shadow-[0_0_12px_rgba(163,230,53,0.8)]">
-          ✉ GET YOUR FREE QUOTE
-        </h2>
+          ✉{/* ================= CONTACT ================= */}
 
-        <p className="text-3xl font-bold mb-3">
-          07532 835807
-        </p>
+<section
+  id="contact"
+  className="py-24 px-6 bg-zinc-950"
+>
 
-        <p className="mb-3 text-zinc-300">
-          larksropeaccess@gmail.com
-        </p>
+  <div className="max-w-5xl mx-auto">
 
-        <p className="mb-10 text-zinc-500">
-          Bristol & South West
-        </p>
+    <h2 className="text-5xl font-black text-center text-lime-400 mb-4">
+      GET YOUR FREE QUOTE
+    </h2>
 
-        <a
-          href="tel:07532835807"
-          className="inline-block bg-lime-400 hover:bg-lime-300 transition text-black font-bold px-10 py-5 rounded-xl text-lg"
-        >
-          CALL NOW
-        </a>
+    <p className="text-center text-zinc-400 mb-12">
+      Tell us about your project and we'll get back to you as soon as possible.
+    </p>
 
-      </section>
+    <form className="grid md:grid-cols-2 gap-6">
+
+      <input
+        type="text"
+        placeholder="Full Name"
+        className="bg-black border border-zinc-700 rounded-xl p-4 outline-none focus:border-lime-400"
+      />
+
+      <input
+        type="email"
+        placeholder="Email Address"
+        className="bg-black border border-zinc-700 rounded-xl p-4 outline-none focus:border-lime-400"
+      />
+
+      <input
+        type="tel"
+        placeholder="Phone Number"
+        className="bg-black border border-zinc-700 rounded-xl p-4 outline-none focus:border-lime-400"
+      />
+
+      <input
+        type="text"
+        placeholder="Company (Optional)"
+        className="bg-black border border-zinc-700 rounded-xl p-4 outline-none focus:border-lime-400"
+      />
+
+      <textarea
+        rows={6}
+        placeholder="Tell us about your project..."
+        className="md:col-span-2 bg-black border border-zinc-700 rounded-xl p-4 outline-none focus:border-lime-400"
+      />
+
+      <button
+        className="md:col-span-2 bg-lime-400 hover:bg-lime-300 transition text-black font-bold rounded-xl py-5 text-lg"
+      >
+        GET MY FREE QUOTE
+      </button>
+
+    </form>
+
+    <div className="text-center mt-10">
+
+      <p className="text-2xl font-bold">
+        07532 835807
+      </p>
+
+      <p className="text-zinc-400 mt-2">
+        larksropeaccess@gmail.com
+      </p>
+
+    </div>
+
+  </div>
+
+</section> 
 
       {/* ================= FOOTER ================= */}
 

@@ -395,7 +395,9 @@ export default function Home() {
           </div>
 
          <form
-  action="/api/contact"
+  <form
+  action="/app/api/contact"
+  method="POST"
   method="POST"
   className="grid md:grid-cols-2 gap-6"
 > 

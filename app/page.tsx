@@ -401,36 +401,42 @@ export default function Home() {
 > 
 
             <input
-              type="text"
-              placeholder="Name"
-              className="bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
-            />
+  name="name"
+  type="text"
+  placeholder="Name"
+  className="bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
+/>
 
             <input
-              type="tel"
-              placeholder="Phone"
-              className="bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
-            />
+  name="phone"
+  type="tel"
+  placeholder="Phone"
+  className="bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
+/>
 
             <input
-              type="email"
-              placeholder="Email"
-              className="bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
-            />
+  name="email"
+  type="email"
+  placeholder="Email"
+  className="bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
+/>
 
             <input
-              type="text"
-              placeholder="Company"
-              className="bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
-            />
+  name="company"
+  type="text"
+  placeholder="Company"
+  className="bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
+/>
 
             <textarea
-              placeholder="Tell us about your project..."
-              rows={6}
-              className="md:col-span-2 bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
-            />
+  name="message"
+  placeholder="Tell us about your project..."
+  rows={6}
+  className="md:col-span-2 bg-zinc-900 rounded-xl p-4 outline-none border border-zinc-700 focus:border-lime-400"
+/>
 
             <button
+  type="submit"
               className="md:col-span-2 bg-lime-400 hover:bg-lime-300 transition text-black font-bold rounded-xl py-5 text-lg"
             >
               GET MY FREE QUOTE

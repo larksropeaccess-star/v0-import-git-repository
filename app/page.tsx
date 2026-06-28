@@ -395,12 +395,11 @@ export default function Home() {
           </div>
 
          <form
-  <form
+<form
   action="/app/api/contact"
   method="POST"
-  method="POST"
   className="grid md:grid-cols-2 gap-6"
-> 
+>  
 
             <input
   name="name"

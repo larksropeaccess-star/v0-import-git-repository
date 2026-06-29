@@ -74,7 +74,53 @@ export default function WeekendCommercialPage() {
         </div>
 
       </section>
+{/* ================= TRUST BAR ================= */}
 
+<section className="bg-zinc-950 py-10 border-t border-zinc-800">
+
+  <div className="max-w-7xl mx-auto px-6">
+
+    <p className="text-center text-lime-400 font-bold tracking-widest uppercase mb-8">
+      Trusted Across Bristol & The South West
+    </p>
+
+    <div className="grid grid-cols-2 md:grid-cols-6 gap-8 text-center">
+
+      <div>
+        <div className="text-4xl mb-2">🏢</div>
+        <p>Office Buildings</p>
+      </div>
+
+      <div>
+        <div className="text-4xl mb-2">🏨</div>
+        <p>Hotels</p>
+      </div>
+
+      <div>
+        <div className="text-4xl mb-2">🏬</div>
+        <p>Retail Parks</p>
+      </div>
+
+      <div>
+        <div className="text-4xl mb-2">🏢</div>
+        <p>Apartments</p>
+      </div>
+
+      <div>
+        <div className="text-4xl mb-2">🎓</div>
+        <p>Universities</p>
+      </div>
+
+      <div>
+        <div className="text-4xl mb-2">🏥</div>
+        <p>Healthcare</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     </main>
   );
 }

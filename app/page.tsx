@@ -23,7 +23,9 @@ export default function Home() {
               className="h-12 md:h-14"
             />
           </a>
-
+<a href="/weekend-commercial-window-cleaning-bristol">
+  Commercial
+</a>
           <div className="hidden md:flex items-center gap-8 font-medium">
 
             <a

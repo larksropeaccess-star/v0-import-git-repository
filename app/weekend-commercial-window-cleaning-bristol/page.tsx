@@ -219,6 +219,87 @@ export default function WeekendCommercialPage() {
   </div>
 
 </section>
+      {/* ================= PERFECT FOR ================= */}
+
+<section className="py-24 px-6 bg-black">
+
+  <div className="max-w-7xl mx-auto">
+
+    <p className="text-lime-400 font-bold uppercase tracking-widest">
+      PERFECT FOR
+    </p>
+
+    <h2 className="text-5xl font-black mt-4 mb-14">
+      Commercial Buildings We Regularly Work On
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8">
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🏢</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Office Buildings
+        </h3>
+        <p className="text-zinc-400">
+          Keep offices looking professional without disrupting staff or visitors.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🏨</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Hotels
+        </h3>
+        <p className="text-zinc-400">
+          Weekend working keeps guests undisturbed while maintaining a spotless exterior.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🏢</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Apartment Developments
+        </h3>
+        <p className="text-zinc-400">
+          High-rise residential blocks cleaned safely with minimal disruption to residents.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🎓</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Universities
+        </h3>
+        <p className="text-zinc-400">
+          Flexible scheduling around campus activity and student accommodation.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🏥</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Healthcare Facilities
+        </h3>
+        <p className="text-zinc-400">
+          Planned access to reduce disruption around sensitive environments.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🏬</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Retail & Mixed-Use Buildings
+        </h3>
+        <p className="text-zinc-400">
+          Helping property owners maintain an impressive appearance with minimal impact on trading.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     </main>
   );
 }

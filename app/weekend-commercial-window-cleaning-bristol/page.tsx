@@ -121,6 +121,42 @@ export default function WeekendCommercialPage() {
   </div>
 
 </section>
+      {/* ================= THE PROBLEM ================= */}
+
+<section className="py-24 px-6 bg-black">
+
+  <div className="max-w-6xl mx-auto">
+
+    <p className="text-lime-400 font-bold uppercase tracking-widest">
+      THE COMMERCIAL DILEMMA
+    </p>
+
+    <h2 className="text-5xl font-black mt-4">
+      High-Rise Maintenance
+      <br />
+      Shouldn't Disrupt Business.
+    </h2>
+
+    <p className="text-zinc-300 text-xl mt-8 max-w-3xl leading-8">
+
+      During the working week, rope access can interrupt
+      offices, distract staff, block entrances and generate
+      unnecessary tenant complaints.
+
+      <br /><br />
+
+      That's why Larks Rope Access created our
+      <span className="text-lime-400 font-bold">
+        {" "}Weekend Access Programme™
+      </span>
+      — allowing commercial work to be completed while
+      your building is empty.
+
+    </p>
+
+  </div>
+
+</section>
     </main>
   );
 }

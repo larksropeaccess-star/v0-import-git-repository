@@ -376,7 +376,34 @@ export default function Home() {
         </div>
 
       </section>
+{/* ================= COMMERCIAL FEATURE ================= */}
 
+<section className="py-24 px-6 bg-lime-400 text-black">
+
+  <div className="max-w-6xl mx-auto text-center">
+
+    <h2 className="text-5xl font-black">
+      COMMERCIAL PROPERTY MANAGERS
+    </h2>
+
+    <p className="text-2xl mt-6 max-w-3xl mx-auto">
+
+      Discover our exclusive Weekend Commercial Rope Access
+      service designed to eliminate weekday disruption,
+      tenant complaints and business downtime.
+
+    </p>
+
+    <a
+      href="/weekend-commercial-window-cleaning-bristol"
+      className="inline-block mt-10 bg-black text-white px-10 py-5 rounded-xl font-bold hover:bg-zinc-900 transition"
+    >
+      EXPLORE OUR WEEKEND COMMERCIAL SERVICE
+    </a>
+
+  </div>
+
+</section>
       {/* ================= CONTACT ================= */}
 
       <section

@@ -157,6 +157,68 @@ export default function WeekendCommercialPage() {
   </div>
 
 </section>
+      {/* ================= WEEKEND ACCESS PROGRAMME ================= */}
+
+<section className="py-24 px-6 bg-zinc-950">
+
+  <div className="max-w-7xl mx-auto">
+
+    <p className="text-lime-400 font-bold uppercase tracking-widest">
+      THE SOLUTION
+    </p>
+
+    <h2 className="text-5xl font-black mt-4 mb-14">
+      The Larks Weekend
+      <span className="text-lime-400"> Access Programme™</span>
+    </h2>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🏢</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Business Continuity
+        </h3>
+        <p className="text-zinc-400">
+          Your offices stay fully operational Monday to Friday with zero interruption.
+        </p>
+      </div>
+
+      <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🔒</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Enhanced Site Safety
+        </h3>
+        <p className="text-zinc-400">
+          Reduced pedestrian traffic makes exclusion zones safer and easier to manage.
+        </p>
+      </div>
+
+      <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">⚡</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Faster Delivery
+        </h3>
+        <p className="text-zinc-400">
+          Weekend access allows our technicians to complete projects efficiently without weekday restrictions.
+        </p>
+      </div>
+
+      <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">💷</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Better Value
+        </h3>
+        <p className="text-zinc-400">
+          Rope access eliminates the cost and disruption of traditional scaffolding.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     </main>
   );
 }

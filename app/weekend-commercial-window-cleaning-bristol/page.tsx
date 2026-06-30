@@ -14,34 +14,6 @@ export default function WeekendCommercialPage() {
 
   <div className="absolute inset-0 bg-black/55" />
 
-  <div className="relative z-10 max-w-7xl mx-auto px-6">
-
-    <div className="inline-block bg-lime-400 text-black font-bold px-4 py-2 rounded-full mb-6">
-      EXCLUSIVE COMMERCIAL SERVICE
-    </div>
-
-    <h1 className="text-5xl md:text-7xl font-black leading-tight">
-      WEEKEND
-
-        <div className="relative z-10 max-w-7xl mx-auto px-6">
-
-          <div className="inline-block bg-lime-400 text-black font-bold px-4 py-2 rounded-full mb-6">
-            EXCLUSIVE COMMERCIAL SERVICE
-          </div>
-
-          <h1 className="text-5xl md:text-7xl font-black leading-tight">
-
-            WEEKEND
-            <br />
-
-            COMMERCIAL
-            <br />
-
-            <span className="text-lime-400">
-              ROPE ACCESS
-            </span>
-
-          </h1>
 
           <h2 className="text-2xl md:text-4xl font-bold mt-8">
 

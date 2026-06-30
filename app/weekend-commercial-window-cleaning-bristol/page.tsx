@@ -547,7 +547,81 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+{/* ================= WHY LARKS ================= */}
 
+<section className="py-24 px-6 bg-black">
+
+  <div className="max-w-6xl mx-auto">
+
+    <div className="text-center mb-16">
+
+      <p className="text-lime-400 font-bold uppercase tracking-widest">
+        WHY CHOOSE LARKS
+      </p>
+
+      <h2 className="text-5xl font-black mt-4">
+        Trusted Commercial Rope Access Specialists
+      </h2>
+
+      <p className="text-zinc-300 text-xl max-w-3xl mx-auto mt-6">
+        We help property managers, facilities teams and building owners
+        keep commercial buildings looking their best without disrupting
+        tenants, staff or visitors.
+      </p>
+
+    </div>
+
+    <div className="grid md:grid-cols-2 gap-10">
+
+      <div className="bg-zinc-900 rounded-2xl p-8">
+
+        <h3 className="text-2xl font-bold mb-4">
+          Why Clients Choose Us
+        </h3>
+
+        <ul className="space-y-4 text-zinc-300">
+
+          <li>✓ IRATA Level 3 Supervision</li>
+
+          <li>✓ Fully insured commercial contractor</li>
+
+          <li>✓ RAMS provided for every project</li>
+
+          <li>✓ Weekend scheduling available</li>
+
+          <li>✓ No scaffolding required</li>
+
+          <li>✓ Fast mobilisation across Bristol & the South West</li>
+
+        </ul>
+
+      </div>
+
+      <div className="bg-lime-400 text-black rounded-2xl p-8">
+
+        <h3 className="text-3xl font-black mb-5">
+          Our Promise
+        </h3>
+
+        <p className="text-lg leading-8">
+
+          Every commercial project is planned around your building,
+          your tenants and your operating hours.
+
+          Our objective is simple:
+
+          Deliver exceptional rope access work while your business
+          continues uninterrupted.
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 </section>
 </section>
 </section>

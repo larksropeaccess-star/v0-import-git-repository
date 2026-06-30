@@ -8,8 +8,11 @@ export default function WeekendCommercialPage() {
 
       <img
   src="/commercial-rope-access.jpg"
-  alt="Commercial Rope Access Bristol"
+  alt="Commercial rope access technicians working on a high-rise building in Bristol"
   className="absolute inset-0 w-full h-full object-cover object-center brightness-110"
+/>
+
+<div className="absolute inset-0 bg-black/55" />
  />  
           alt="Weekend Commercial Rope Access"
           className="absolute inset-0 w-full h-full object-cover object-center opacity-40"

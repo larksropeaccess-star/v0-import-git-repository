@@ -749,11 +749,6 @@ export default function WeekendCommercialPage() {
   </div>
 
 </section>
-</section>
-</section>
-</section>
-</section>
-</section>
     </main>
   );
 }

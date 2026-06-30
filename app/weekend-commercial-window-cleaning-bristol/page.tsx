@@ -453,7 +453,102 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+{/* ================= HOW IT WORKS ================= */}
 
+<section className="py-24 px-6 bg-zinc-950">
+
+  <div className="max-w-6xl mx-auto text-center">
+
+    <p className="text-lime-400 font-bold uppercase tracking-widest">
+      OUR PROCESS
+    </p>
+
+    <h2 className="text-5xl font-black mt-4 mb-6">
+      From Enquiry to Completion
+    </h2>
+
+    <p className="text-zinc-300 text-xl max-w-3xl mx-auto mb-16">
+      A straightforward process designed to make planning commercial rope
+      access projects simple and hassle-free.
+    </p>
+
+    <div className="grid md:grid-cols-5 gap-8">
+
+      <div>
+        <div className="w-20 h-20 rounded-full bg-lime-400 text-black font-black text-3xl flex items-center justify-center mx-auto mb-5">
+          1
+        </div>
+
+        <h3 className="text-xl font-bold mb-3">
+          Contact Us
+        </h3>
+
+        <p className="text-zinc-400">
+          Tell us about your building and your requirements.
+        </p>
+      </div>
+
+      <div>
+        <div className="w-20 h-20 rounded-full bg-lime-400 text-black font-black text-3xl flex items-center justify-center mx-auto mb-5">
+          2
+        </div>
+
+        <h3 className="text-xl font-bold mb-3">
+          Site Assessment
+        </h3>
+
+        <p className="text-zinc-400">
+          We assess access, scope and the safest working method.
+        </p>
+      </div>
+
+      <div>
+        <div className="w-20 h-20 rounded-full bg-lime-400 text-black font-black text-3xl flex items-center justify-center mx-auto mb-5">
+          3
+        </div>
+
+        <h3 className="text-xl font-bold mb-3">
+          Receive Your Quote
+        </h3>
+
+        <p className="text-zinc-400">
+          A clear quotation with proposed weekend scheduling.
+        </p>
+      </div>
+
+      <div>
+        <div className="w-20 h-20 rounded-full bg-lime-400 text-black font-black text-3xl flex items-center justify-center mx-auto mb-5">
+          4
+        </div>
+
+        <h3 className="text-xl font-bold mb-3">
+          Weekend Works
+        </h3>
+
+        <p className="text-zinc-400">
+          Rope access carried out safely with minimal disruption.
+        </p>
+      </div>
+
+      <div>
+        <div className="w-20 h-20 rounded-full bg-lime-400 text-black font-black text-3xl flex items-center justify-center mx-auto mb-5">
+          5
+        </div>
+
+        <h3 className="text-xl font-bold mb-3">
+          Project Complete
+        </h3>
+
+        <p className="text-zinc-400">
+          Building handed back clean, safe and ready for Monday morning.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 </section>
 </section>
 </section>

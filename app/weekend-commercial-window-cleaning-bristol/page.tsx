@@ -4,21 +4,24 @@ export default function WeekendCommercialPage() {
 
       {/* HERO */}
 
-      <section className="relative min-h-screen flex items-center overflow-hidden">
+<section className="relative min-h-screen flex items-center overflow-hidden">
 
-      <img
-  src="/commercial-rope-access.jpg"
-  alt="Commercial rope access technicians working on a high-rise building in Bristol"
-  className="absolute inset-0 w-full h-full object-cover object-center brightness-110"
-/>
+  <img
+    src="/commercial-rope-access.jpg"
+    alt="Commercial rope access technicians working on a high-rise building in Bristol"
+    className="absolute inset-0 w-full h-full object-cover object-center brightness-110"
+  />
 
-<div className="absolute inset-0 bg-black/55" />
- />  
-          alt="Weekend Commercial Rope Access"
-          className="absolute inset-0 w-full h-full object-cover object-center opacity-40"
-        />
+  <div className="absolute inset-0 bg-black/55" />
 
-        <div className="absolute inset-0 bg-black/70" />
+  <div className="relative z-10 max-w-7xl mx-auto px-6">
+
+    <div className="inline-block bg-lime-400 text-black font-bold px-4 py-2 rounded-full mb-6">
+      EXCLUSIVE COMMERCIAL SERVICE
+    </div>
+
+    <h1 className="text-5xl md:text-7xl font-black leading-tight">
+      WEEKEND
 
         <div className="relative z-10 max-w-7xl mx-auto px-6">
 

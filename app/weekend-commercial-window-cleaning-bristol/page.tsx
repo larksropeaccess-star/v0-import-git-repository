@@ -6,11 +6,11 @@ export default function WeekendCommercialPage() {
 
 <section className="relative min-h-screen flex items-center overflow-hidden">
 
-  <img
-    src="/commercial-rope-access.jpg"
-    alt="Commercial rope access technicians working on a high-rise building in Bristol"
-    className="absolute inset-0 w-full h-full object-cover object-center brightness-110"
-  />
+<img
+  src="/pexels-nishant-syangtan-161732636-10826406.jpg"
+  alt="Commercial rope access technicians working on a high-rise building in Bristol"
+  className="absolute inset-0 w-full h-full object-cover object-center brightness-110"
+/>
 
   <div className="absolute inset-0 bg-black/55" />
 

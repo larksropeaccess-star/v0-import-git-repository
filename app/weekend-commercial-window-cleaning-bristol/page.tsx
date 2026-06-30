@@ -6,35 +6,30 @@ export default function WeekendCommercialPage() {
 
 <section className="relative min-h-screen flex items-center overflow-hidden">
 
-<img
-  src="/pexels-nishant-syangtan-161732636-10826406.jpg"
-  alt="Commercial rope access technicians working on a high-rise building in Bristol"
-  className="absolute inset-0 w-full h-full object-cover object-center brightness-110"
-/>
+  <img
+    src="/pexels-nishant-syangtan-161732636-10826406.jpg"
+    alt="Commercial rope access technicians working on a high-rise building in Bristol"
+    className="absolute inset-0 w-full h-full object-cover object-center brightness-110"
+  />
 
   <div className="absolute inset-0 bg-black/55" />
 
+  <div className="relative z-10 max-w-7xl mx-auto px-6">
 
-          <h2 className="text-2xl md:text-4xl font-bold mt-8">
+    <h2 className="text-2xl md:text-4xl font-bold mt-8">
+      ZERO WEEKDAY DISRUPTION.
+      <br />
+      ZERO TENANT COMPLAINTS.
+    </h2>
 
-            ZERO WEEKDAY DISRUPTION.
+    <p className="text-zinc-300 text-xl max-w-3xl mt-8 leading-8">
+      Professional high-rise window cleaning,
+      façade inspections and specialist rope access
+      completed exclusively at weekends across
+      Bristol and the South West.
+    </p>
 
-            <br />
-
-            ZERO TENANT COMPLAINTS.
-
-          </h2>
-
-          <p className="text-zinc-300 text-xl max-w-3xl mt-8 leading-8">
-
-            Professional high-rise window cleaning,
-            façade inspections and specialist rope access
-            completed exclusively at weekends across
-            Bristol and the South West.
-
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-5 mt-10">
+    <div className="flex flex-col sm:flex-row gap-5 mt-10">
 
             <a
               href="#quote"

@@ -754,6 +754,113 @@ export default function WeekendCommercialPage() {
   </div>
 
 </section>
+      {/* ================= COMMERCIAL ENQUIRY ================= */}
+
+<section id="quote" className="py-24 px-6 bg-black">
+
+  <div className="max-w-5xl mx-auto text-center">
+
+    <p className="text-lime-400 font-bold uppercase tracking-widest">
+      REQUEST A WEEKEND ASSESSMENT
+    </p>
+
+    <h2 className="text-5xl font-black mt-4">
+      Ready to Eliminate
+      <br />
+      Weekday Disruption?
+    </h2>
+
+    <p className="text-zinc-300 text-xl max-w-3xl mx-auto mt-8 leading-8">
+      Speak directly with our IRATA Level 3 team about commercial window
+      cleaning, façade inspections and specialist rope access carried out
+      at weekends across Bristol and the South West.
+    </p>
+
+    <div className="mt-14 max-w-3xl mx-auto">
+
+      <form
+        action="/api/contact"
+        method="POST"
+        className="grid md:grid-cols-2 gap-6"
+      >
+
+        <input
+          type="text"
+          name="name"
+          placeholder="Full Name"
+          className="bg-zinc-900 p-4 rounded-xl border border-zinc-700"
+          required
+        />
+
+        <input
+          type="text"
+          name="company"
+          placeholder="Company Name"
+          className="bg-zinc-900 p-4 rounded-xl border border-zinc-700"
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          className="bg-zinc-900 p-4 rounded-xl border border-zinc-700"
+          required
+        />
+
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Telephone"
+          className="bg-zinc-900 p-4 rounded-xl border border-zinc-700"
+        />
+
+        <input
+          type="text"
+          name="building"
+          placeholder="Building Address"
+          className="bg-zinc-900 p-4 rounded-xl border border-zinc-700 md:col-span-2"
+        />
+
+        <textarea
+          name="message"
+          placeholder="Tell us about your project..."
+          rows={6}
+          className="bg-zinc-900 p-4 rounded-xl border border-zinc-700 md:col-span-2"
+        />
+
+        <button
+          type="submit"
+          className="bg-lime-400 text-black font-bold py-5 rounded-xl md:col-span-2 hover:scale-105 transition"
+        >
+          REQUEST MY WEEKEND ASSESSMENT
+        </button>
+
+      </form>
+
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-8 mt-16 text-center">
+
+      <div>
+        <div className="text-4xl mb-3">📞</div>
+        <p className="font-bold">07532 835807</p>
+      </div>
+
+      <div>
+        <div className="text-4xl mb-3">🧗</div>
+        <p>IRATA Level 3 Supervision</p>
+      </div>
+
+      <div>
+        <div className="text-4xl mb-3">🛡</div>
+        <p>Fully Insured</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
     </main>
   );
 }

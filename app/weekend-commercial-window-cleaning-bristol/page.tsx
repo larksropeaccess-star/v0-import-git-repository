@@ -6,8 +6,11 @@ export default function WeekendCommercialPage() {
 
       <section className="relative min-h-screen flex items-center overflow-hidden">
 
-        <img
-          src="/Messenger_creation_1983A15C-16C8-4F58-9AF5-A7C80A6E877E.jpeg"
+      <img
+  src="/commercial-rope-access.jpg"
+  alt="Commercial Rope Access Bristol"
+  className="absolute inset-0 w-full h-full object-cover object-center brightness-110"
+ />  
           alt="Weekend Commercial Rope Access"
           className="absolute inset-0 w-full h-full object-cover object-center opacity-40"
         />

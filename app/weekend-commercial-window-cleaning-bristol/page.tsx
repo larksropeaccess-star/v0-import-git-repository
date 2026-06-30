@@ -298,7 +298,75 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+{/* ================= WEATHER GUARANTEE ================= */}
 
+<section className="py-24 px-6 bg-zinc-950">
+
+  <div className="max-w-5xl mx-auto">
+
+    <p className="text-lime-400 font-bold uppercase tracking-widest">
+      WEATHER CONTINGENCY
+    </p>
+
+    <h2 className="text-5xl font-black mt-4">
+      Our Weekend Weather Guarantee
+    </h2>
+
+    <p className="text-zinc-300 text-xl mt-8 leading-8">
+
+      Rope access work depends on safe weather conditions.
+      If strong winds or severe rain prevent us from working,
+      we protect your booking with a simple guarantee.
+
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-8 mt-12">
+
+      <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4 text-lime-400">
+          48-Hour Monitoring
+        </h3>
+
+        <p className="text-zinc-400">
+          We monitor local weather forecasts in the days leading up to your scheduled visit.
+        </p>
+      </div>
+
+      <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4 text-lime-400">
+          Early Notification
+        </h3>
+
+        <p className="text-zinc-400">
+          If conditions become unsafe, we'll contact you as early as possible to discuss the next steps.
+        </p>
+      </div>
+
+      <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4 text-lime-400">
+          Priority Rescheduling
+        </h3>
+
+        <p className="text-zinc-400">
+          Weather-related postponements receive priority booking for the next suitable weekend.
+        </p>
+      </div>
+
+      <div className="bg-black rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4 text-lime-400">
+          No Weather Cancellation Fees
+        </h3>
+
+        <p className="text-zinc-400">
+          If unsafe weather prevents us from carrying out the work, you won't be charged cancellation or rescheduling fees.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 </section>
     </main>
   );

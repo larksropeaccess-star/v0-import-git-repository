@@ -620,7 +620,135 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+{/* ================= RECENT COMMERCIAL PROJECTS ================= */}
 
+<section className="py-24 px-6 bg-zinc-950">
+
+  <div className="max-w-7xl mx-auto">
+
+    <div className="text-center mb-16">
+
+      <p className="text-lime-400 font-bold uppercase tracking-widest">
+        RECENT PROJECTS
+      </p>
+
+      <h2 className="text-5xl font-black mt-4">
+        Commercial Rope Access Solutions
+      </h2>
+
+      <p className="text-zinc-300 text-xl max-w-3xl mx-auto mt-6">
+        Examples of the types of commercial projects we regularly undertake
+        across Bristol and the South West.
+      </p>
+
+    </div>
+
+    <div className="grid lg:grid-cols-3 gap-8">
+
+      {/* CARD 1 */}
+
+      <div className="bg-black rounded-2xl overflow-hidden border border-zinc-800">
+
+        <div className="h-56 bg-zinc-800 flex items-center justify-center text-6xl">
+          🏢
+        </div>
+
+        <div className="p-8">
+
+          <h3 className="text-2xl font-bold mb-4">
+            Office Buildings
+          </h3>
+
+          <p className="text-zinc-400 mb-6">
+            Weekend commercial window cleaning allowing businesses to
+            operate without disruption throughout the working week.
+          </p>
+
+          <ul className="space-y-2 text-zinc-300 mb-8">
+            <li>✓ Rope access only</li>
+            <li>✓ No scaffolding</li>
+            <li>✓ Weekend completion</li>
+          </ul>
+
+          <span className="text-lime-400 font-semibold">
+            Case Study Coming Soon →
+          </span>
+
+        </div>
+
+      </div>
+
+      {/* CARD 2 */}
+
+      <div className="bg-black rounded-2xl overflow-hidden border border-zinc-800">
+
+        <div className="h-56 bg-zinc-800 flex items-center justify-center text-6xl">
+          🏨
+        </div>
+
+        <div className="p-8">
+
+          <h3 className="text-2xl font-bold mb-4">
+            Hotels
+          </h3>
+
+          <p className="text-zinc-400 mb-6">
+            High-level glazing cleaned while protecting guest experience
+            and maintaining a professional appearance.
+          </p>
+
+          <ul className="space-y-2 text-zinc-300 mb-8">
+            <li>✓ Guest access maintained</li>
+            <li>✓ Fully insured</li>
+            <li>✓ Minimal disruption</li>
+          </ul>
+
+          <span className="text-lime-400 font-semibold">
+            Case Study Coming Soon →
+          </span>
+
+        </div>
+
+      </div>
+
+      {/* CARD 3 */}
+
+      <div className="bg-black rounded-2xl overflow-hidden border border-zinc-800">
+
+        <div className="h-56 bg-zinc-800 flex items-center justify-center text-6xl">
+          🏙️
+        </div>
+
+        <div className="p-8">
+
+          <h3 className="text-2xl font-bold mb-4">
+            Apartment Developments
+          </h3>
+
+          <p className="text-zinc-400 mb-6">
+            Safe high-rise rope access for residential developments with
+            carefully managed working areas.
+          </p>
+
+          <ul className="space-y-2 text-zinc-300 mb-8">
+            <li>✓ High-rise specialists</li>
+            <li>✓ IRATA technicians</li>
+            <li>✓ Weekend scheduling</li>
+          </ul>
+
+          <span className="text-lime-400 font-semibold">
+            Case Study Coming Soon →
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 </section>
 </section>
 </section>

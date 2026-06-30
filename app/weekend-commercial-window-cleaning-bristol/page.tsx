@@ -298,6 +298,7 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+  </section>
 {/* ================= WEATHER GUARANTEE ================= */}
 
 <section className="py-24 px-6 bg-zinc-950">
@@ -365,6 +366,7 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+  </section>
 {/* ================= COMMERCIAL TRUST & COMPLIANCE ================= */}
 
 <section className="py-24 px-6 bg-black">
@@ -453,6 +455,7 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+  </section>
 {/* ================= HOW IT WORKS ================= */}
 
 <section className="py-24 px-6 bg-zinc-950">
@@ -547,6 +550,7 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+  </section>
 {/* ================= WHY LARKS ================= */}
 
 <section className="py-24 px-6 bg-black">
@@ -620,6 +624,7 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+  </section>
 {/* ================= RECENT COMMERCIAL PROJECTS ================= */}
 
 <section className="py-24 px-6 bg-zinc-950">

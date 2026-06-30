@@ -365,7 +365,96 @@ export default function WeekendCommercialPage() {
     </div>
 
   </div>
+{/* ================= COMMERCIAL TRUST & COMPLIANCE ================= */}
 
+<section className="py-24 px-6 bg-black">
+
+  <div className="max-w-7xl mx-auto">
+
+    <p className="text-lime-400 font-bold uppercase tracking-widest">
+      COMMERCIAL TRUST & COMPLIANCE
+    </p>
+
+    <h2 className="text-5xl font-black mt-4 mb-6">
+      Trusted Standards.
+      <br />
+      Professional Delivery.
+    </h2>
+
+    <p className="text-zinc-300 text-xl max-w-3xl mb-16">
+      We understand what commercial property managers expect.
+      From planning and safety documentation through to clear
+      communication, every project is delivered professionally
+      from start to finish.
+    </p>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🧗</div>
+        <h3 className="text-2xl font-bold mb-3">
+          IRATA Level 3 Supervision
+        </h3>
+        <p className="text-zinc-400">
+          Commercial projects are carried out under IRATA Level 3 supervision, following internationally recognised rope access standards.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">🛡</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Fully Insured
+        </h3>
+        <p className="text-zinc-400">
+          Comprehensive public liability insurance provides peace of mind for clients, occupants and building owners.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">📋</div>
+        <h3 className="text-2xl font-bold mb-3">
+          RAMS Available
+        </h3>
+        <p className="text-zinc-400">
+          Risk Assessments and Method Statements can be provided before work begins to support your health and safety requirements.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">⚠️</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Safety First
+        </h3>
+        <p className="text-zinc-400">
+          Every project is carefully planned with safe systems of work, controlled access zones and clear communication throughout.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">📍</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Bristol & South West
+        </h3>
+        <p className="text-zinc-400">
+          Supporting commercial property managers, facilities teams and building owners throughout Bristol and the wider South West.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <div className="text-5xl mb-5">⚡</div>
+        <h3 className="text-2xl font-bold mb-3">
+          Fast Quotations
+        </h3>
+        <p className="text-zinc-400">
+          We respond quickly with clear quotations, practical advice and flexible weekend scheduling to suit your building.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 </section>
 </section>
     </main>

@@ -615,6 +615,80 @@ export default function WeekendCommercialPage() {
 
   </div>
   </section>
+      {/* ================= REQUEST A WEEKEND ASSESSMENT ================= */}
+
+<section id="quote" className="py-24 px-6 bg-lime-400 text-black">
+
+  <div className="max-w-4xl mx-auto text-center">
+
+    <p className="font-bold uppercase tracking-widest mb-4">
+      REQUEST A WEEKEND ASSESSMENT
+    </p>
+
+    <h2 className="text-5xl font-black mb-6">
+      Let's Plan Your Weekend Rope Access Project
+    </h2>
+
+    <p className="text-xl mb-12">
+      Tell us about your building and we'll provide a fast,
+      no-obligation quotation with recommended weekend scheduling.
+    </p>
+
+    <form
+      action="/api/contact"
+      method="POST"
+      className="grid md:grid-cols-2 gap-6 text-left"
+    >
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+        className="p-4 rounded-xl bg-white text-black"
+      />
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required
+        className="p-4 rounded-xl bg-white text-black"
+      />
+
+      <input
+        type="tel"
+        name="phone"
+        placeholder="Telephone"
+        className="p-4 rounded-xl bg-white text-black"
+      />
+
+      <input
+        type="text"
+        name="company"
+        placeholder="Company / Building"
+        className="p-4 rounded-xl bg-white text-black"
+      />
+
+      <textarea
+        name="message"
+        placeholder="Tell us about your building..."
+        rows={6}
+        className="md:col-span-2 p-4 rounded-xl bg-white text-black"
+      />
+
+      <button
+        type="submit"
+        className="md:col-span-2 bg-black text-lime-400 py-5 rounded-xl font-bold text-lg hover:bg-zinc-900 transition"
+      >
+        REQUEST MY QUOTATION
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
 {/* ================= RECENT COMMERCIAL PROJECTS ================= */}
 
 <section className="py-24 px-6 bg-zinc-950">

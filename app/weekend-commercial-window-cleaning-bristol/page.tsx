@@ -818,6 +818,44 @@ export default function WeekendCommercialPage() {
   </div>
 
 </section>
+      
+    {/* ================= AREAS WE COVER ================= */}
+
+<section className="py-24 px-6 bg-zinc-950">
+
+  <div className="max-w-6xl mx-auto text-center">
+
+    <p className="text-lime-400 font-bold uppercase tracking-widest">
+      AREAS WE COVER
+    </p>
+
+    <h2 className="text-5xl font-black mt-4 mb-6">
+      Commercial Rope Access Across
+      <span className="text-lime-400"> Bristol & The South West</span>
+    </h2>
+
+    <p className="text-zinc-300 text-xl max-w-3xl mx-auto mb-12">
+      Based in Bristol, we support commercial clients throughout the South West with
+      specialist rope access, high-rise window cleaning and façade maintenance.
+    </p>
+
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+      <div className="bg-black rounded-xl p-6 border border-zinc-800">Bristol</div>
+      <div className="bg-black rounded-xl p-6 border border-zinc-800">Bath</div>
+      <div className="bg-black rounded-xl p-6 border border-zinc-800">Gloucester</div>
+      <div className="bg-black rounded-xl p-6 border border-zinc-800">Cheltenham</div>
+
+      <div className="bg-black rounded-xl p-6 border border-zinc-800">Swindon</div>
+      <div className="bg-black rounded-xl p-6 border border-zinc-800">Weston-super-Mare</div>
+      <div className="bg-black rounded-xl p-6 border border-zinc-800">Newport</div>
+      <div className="bg-black rounded-xl p-6 border border-zinc-800">Cardiff</div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* ================= FAQ ================= */}
 
 <section className="py-24 px-6 bg-black">

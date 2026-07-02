@@ -818,6 +818,90 @@ export default function WeekendCommercialPage() {
   </div>
 
 </section>
+      {/* ================= FAQ ================= */}
+
+<section className="py-24 px-6 bg-black">
+
+  <div className="max-w-5xl mx-auto">
+
+    <div className="text-center mb-16">
+
+      <p className="text-lime-400 font-bold uppercase tracking-widest">
+        FREQUENTLY ASKED QUESTIONS
+      </p>
+
+      <h2 className="text-5xl font-black mt-4">
+        Commercial Rope Access FAQs
+      </h2>
+
+    </div>
+
+    <div className="space-y-8">
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4">
+          Do you only carry out work at weekends?
+        </h3>
+
+        <p className="text-zinc-400 leading-8">
+          No. We offer commercial rope access throughout the week, but our
+          Weekend Access Programme™ is ideal for businesses wanting to avoid
+          disruption to staff, tenants and customers.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4">
+          Do you provide RAMS?
+        </h3>
+
+        <p className="text-zinc-400 leading-8">
+          Yes. Risk Assessments and Method Statements (RAMS) can be supplied
+          before work begins to support your health and safety procedures.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4">
+          Are you fully insured?
+        </h3>
+
+        <p className="text-zinc-400 leading-8">
+          Yes. Larks Rope Access carries comprehensive public liability
+          insurance and all commercial work is completed under appropriate
+          safety procedures.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4">
+          What happens if the weather is unsuitable?
+        </h3>
+
+        <p className="text-zinc-400 leading-8">
+          Safety always comes first. If weather conditions prevent safe rope
+          access working, we'll contact you as early as possible and arrange
+          the next suitable weekend under our Weather Guarantee.
+        </p>
+      </div>
+
+      <div className="bg-zinc-900 rounded-2xl p-8 border border-zinc-800">
+        <h3 className="text-2xl font-bold mb-4">
+          Which areas do you cover?
+        </h3>
+
+        <p className="text-zinc-400 leading-8">
+          We work throughout Bristol and the South West, supporting commercial
+          property managers, facilities management companies, developers and
+          building owners.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* ================= COMMERCIAL ENQUIRY ================= */}
 
 <section id="quote" className="py-24 px-6 bg-black">

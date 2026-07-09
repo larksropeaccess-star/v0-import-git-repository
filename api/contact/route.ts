@@ -3,6 +3,6 @@ import { NextResponse } from "next/server";
 export async function POST() {
   return NextResponse.json({
     success: true,
-    message: "Contact form endpoint is working.",
+    message: "THIS IS THE CONTACT ROUTE"
   });
 }

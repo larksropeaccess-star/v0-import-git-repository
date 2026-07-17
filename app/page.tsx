@@ -95,7 +95,19 @@ export default function Home() {
             </span>
 
           </h1>
+<h2 className="mt-6 text-2xl md:text-3xl font-bold text-lime-400">
+  R.O.P.E.
+</h2>
 
+<p className="mt-3 text-lg md:text-xl text-gray-300 font-medium">
+  Reliable • Obstruction Free • Prepared • Efficient Execution
+</p>
+
+<p className="mt-6 max-w-3xl text-gray-300 text-lg leading-relaxed">
+  Professional IRATA rope access specialists providing commercial window cleaning,
+  façade inspections and high-level maintenance throughout Bristol, Bath,
+  Cardiff and the South West.
+</p>
           <p className="text-zinc-300 text-xl max-w-2xl mt-8 leading-8">
 
             Professional rope access window cleaning,
